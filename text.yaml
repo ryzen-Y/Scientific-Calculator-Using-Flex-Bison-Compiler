@@ -1,0 +1,6 @@
+<--All command for terminal-->
+
+bison -d calculator_with_conversion.y
+flex calculator_with_conversion.l 
+gcc -o app calculator_with_conversion.tab.c lex.yy.c -mconsole
+.\app.exe
