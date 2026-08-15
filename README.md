@@ -56,7 +56,7 @@
 ├── calculator_with_conversion.y   # Parser definitions (Bison)
 ├── Makefile                       # Build instructions (if any)
 ├── README.md                      # Documentation
-└── report.pdf                     # Project Report
+
 
 ```
 
@@ -132,5 +132,3 @@ Mirza Aliun Tauhid
 This project was completed as part of **CSE314**: Compiler Design
 Department of **Computer Science and Engineering**
 **Daffodil International University**, Dhaka, Bangladesh
-
-## 📅 _August 2025_
