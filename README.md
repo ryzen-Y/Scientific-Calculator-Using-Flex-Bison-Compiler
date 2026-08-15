@@ -11,6 +11,7 @@
 ---
 
 ## 📑 Table of Contents
+
 - [🚀 Features](#-features)
 - [🛠️ Technologies Used](#️-technologies-used)
 - [📂 Project Structure](#-project-structure)
@@ -24,6 +25,7 @@
 ---
 
 ## 🚀 Features
+
 - Perform **basic arithmetic operations**: `+`, `-`, `*`, `/`, `%`
 - Support for **scientific functions**:
   - Trigonometric: `sin`, `cos`, `tan`
@@ -38,6 +40,7 @@
 ---
 
 ## 🛠️ Technologies Used
+
 - **C Programming**
 - **Flex** – Lexical Analysis
 - **Bison** – Syntax Parsing
@@ -46,6 +49,7 @@
 ---
 
 ## 📂 Project Structure
+
 ```bash
 .
 ├── calculator_with_conversion.l   # Lexer definitions (Flex)
@@ -59,6 +63,7 @@
 ---
 
 ## ⚙️ Installation & Usage
+
 **Prerequisites**
 
 - GCC (GNU Compiler Collection)
@@ -66,20 +71,22 @@
 - Bison
 
 ## Build & Run (Windows Example)
+
 ```bash
 bison -d calculator_with_conversion.y
 flex calculator_with_conversion.l
 gcc -o app calculator_with_conversion.tab.c lex.yy.c -mconsole
 .\app.exe
 ```
----
 
+---
 
 <div align="center">
   <img src="Screenshot/Screenshot.png" alt="Calculator Example Screenshot" width="600"/>
 </div>
 
 ## 🖥️ Example Inputs & Outputs
+
 ```bash
 > 5+3*2
 = 11
@@ -93,6 +100,7 @@ gcc -o app calculator_with_conversion.tab.c lex.yy.c -mconsole
 > log(10)
 = 2.302585
 ```
+
 Invalid inputs (e.g., 5++2 or sqrt(-4)) will produce clear error messages.
 
 ---
@@ -107,7 +115,7 @@ Invalid inputs (e.g., 5++2 or sqrt(-4)) will produce clear error messages.
 
 ## 📌 Future Improvements
 
--  Add complex numbers and matrix operations
+- Add complex numbers and matrix operations
 - Implement variable assignment & calculation history
 - Create a GUI frontend (GTK/Qt) while keeping CLI backend intact
 
@@ -115,11 +123,7 @@ Invalid inputs (e.g., 5++2 or sqrt(-4)) will produce clear error messages.
 
 ## 👨‍💻 Contributors
 
-**Shahriar Ahamed Ripon** (ID: 1019)  
-**Omar Faruk Piash** (ID: 1659)  
-**Md Faysal Ahamed** (ID: 1376)  
-**Injamum Ul Hoque** (ID: 1645)  
-**Md Sorowar Jahan Ishan** (ID: 1559)  
+Mirza Aliun Tauhid
 
 ---
 
@@ -129,4 +133,4 @@ This project was completed as part of **CSE314**: Compiler Design
 Department of **Computer Science and Engineering**
 **Daffodil International University**, Dhaka, Bangladesh
 
-## 📅 *August 2025*
+## 📅 _August 2025_
